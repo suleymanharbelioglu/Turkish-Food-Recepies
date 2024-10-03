@@ -229,8 +229,8 @@ class Strings {
         "\t• Serve with minced dill.\n\n"
   ];
   static const foodImageNameList = [
-    "easyYellowLentilSoup",
-    "beyranSoup",
+    "EasyYellowLentilSoup",
+    "BeyranSoup",
     "TraditionalTurkishKofte",
     "Sarma",
     "TurkishGroundBeefPide",
