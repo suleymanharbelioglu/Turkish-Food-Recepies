@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:turkish_food_recepies/page/food_list.dart';
+import 'package:turkish_food_recepies/route_generator.dart';
 
 void main() => runApp(const MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: FoodList(),
+      onGenerateRoute: RouteGenerator.routeGenerator,
     );
   }
 }
