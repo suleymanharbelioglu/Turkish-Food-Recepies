@@ -24,6 +24,9 @@ class FoodListItem extends StatelessWidget {
           color: Colors.white,
         ),
         child: ListTile(
+          onTap: () {
+            Navigator.of(context).pushNamed("/foodRecipePage", arguments: food);
+          },
           leading: Container(
             height: 60,
             width: 60,
