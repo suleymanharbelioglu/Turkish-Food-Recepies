@@ -1,7 +1,6 @@
 # Turkish Food Recepies App
- It is a simple application that includes the ingredients and recipes needed to make 10 popular dishes from Turkish cuisine.
+  It is a simple application that includes the ingredients and recipes needed to make 10 popular dishes from Turkish cuisine.
 
-## How app works
 - The application consists of two pages: a list of dishes and a recipe page.
 - The application starts with the "Food List" Page. This page contains the 10 most popular Turkish dishes.
 From the list, users can click on the food they select to access the related recipe.
